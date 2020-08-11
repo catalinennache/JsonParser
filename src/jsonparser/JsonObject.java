@@ -10,7 +10,7 @@ import java.util.Set;
 
 
 public class JsonObject {
-    public HashMap<String,Object> content;
+    private HashMap<String,Object> content;
     
     public JsonObject(){
         content = new HashMap();
